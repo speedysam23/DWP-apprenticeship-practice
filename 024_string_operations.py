@@ -40,7 +40,7 @@ old_string = "Hello, YOUR_NAME!"
 new_string = old_string.replace("YOUR_NAME", "Kay")
 
 # Uncomment this next line to see the result:
-# print(new_string)
+print(new_string)
 
 # You'll notice here that the function is coming in a different place. Let's
 # compare `len` and `replace`:
@@ -76,7 +76,7 @@ print("Function: uppercase")
 # Search for 'python make string uppercase'
 
 def make_uppercase(string):
-  # Return the string in uppercase
+  return string.upper()
   pass
 
 check_that_these_are_equal(
@@ -93,7 +93,7 @@ print("Function: lowercase")
 # Search for 'python make string lowercase'
 
 def make_lowercase(string):
-  # Return the string in lowercase
+  return string.lower()
   pass
 
 check_that_these_are_equal(
@@ -110,8 +110,10 @@ print("Function: strip_whitespace")
 # Search for 'python remove whitespace from string'
 
 def strip_whitespace(string):
-  # Return the string with any whitespace removed from the start and end
+  return string.strip()
   pass
+
+# this one took some time to figure out ;)
 
 check_that_these_are_equal(
   strip_whitespace("hello "), "hello")
