@@ -38,7 +38,10 @@ print(f"Today's day is: {todays_day}")
 print("---")
 
 # @TASK: What will it print? Run this file and find out.
-#
+#My favourite number is: 99
+    #   ---
+    #   Today's day is: 20
+    #   ---
 # You'll see that the first `19` value is thrown away and replaced with the
 # second `20` value.
 
